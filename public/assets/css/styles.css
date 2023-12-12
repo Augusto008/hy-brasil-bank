@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    min-height: 150px;
+    background-color: #e37337ed;
+    padding: 20px;
+}
+
+.active {
+    font-weight: bold !important;
+}
+
+#nav-menu .nav-item:hover {
+    font-weight: bold;
+}
+
+.icon-link:hover, .nav-link:hover {
+    transform: translate3d(0, -.125rem, 0);
+}
+
+#hy-brasil-bank-logo {
+    font-weight: bolder;
+    font-size: 40px;
+}
