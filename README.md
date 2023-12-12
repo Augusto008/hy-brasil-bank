@@ -6,6 +6,8 @@ A finance institution website simulator.
 
 **Project purpose**: To test Knowledge and solving problem skills.
 
+**Observation**: All modifications need to be sended to GitHub by using git commands.
+
 This project needs to use the next technollogies on developement:
 
 | Front End | BackEnd | Database | Frameworks | 
