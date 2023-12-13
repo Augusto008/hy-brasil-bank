@@ -3,25 +3,55 @@
     padding: 0;
 }
 
+footer {
+    height: 507px;
+    background: linear-gradient(180deg, rgba(122, 230, 223, 0.72) 0%, rgba(16, 191, 13, 0.6624) 100%);
+    color: #FFFFFF;
+}
+
 header {
     min-height: 150px;
     background-color: #e37337ed;
     padding: 20px;
 }
 
+p {
+    font-size: clamp(12px, 1vw, 18px);
+}
+
 .active {
     font-weight: bold !important;
 }
 
-#nav-menu .nav-item:hover {
-    font-weight: bold;
+.banner-big-button {
+    background-color: rgba(125, 125, 125, 0.32) !important;
+    font-size: clamp(20px, 3vw, 60px) !important;
+    transition: all .2;
+}
+
+.banner-big-button:hover {
+    background-color: rgba(125, 125, 125, 0.68) !important;
+    transition: all .2;
+}
+
+#hy-brasil-bank-logo {
+    font-weight: bolder;
+    font-size: 40px;
 }
 
 .icon-link:hover, .nav-link:hover {
     transform: translate3d(0, -.125rem, 0);
 }
 
-#hy-brasil-bank-logo {
-    font-weight: bolder;
-    font-size: 40px;
+#nav-menu .nav-item:hover {
+    font-weight: bold;
+}
+
+.quick-card {
+    transition: all .5s;
+}
+
+.quick-card:hover {
+  transition: all .5s;
+  box-shadow: 0 0 20px black;
 }
