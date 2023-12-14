@@ -130,6 +130,7 @@
         focus  : 'center',
       } ).mount();
       new Splide( '#splide-news', {
+        type   : 'loop',
         perPage: 2.5,
         focus  : 'start',
       } ).mount();
