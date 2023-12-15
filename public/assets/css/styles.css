@@ -19,6 +19,16 @@ p {
     font-size: clamp(12px, 1vw, 18px);
 }
 
+.account-cards {
+    transition: all .5s;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 25%);
+}
+
+.account-cards:hover {
+    transition: all .5s;
+    box-shadow: 25px 25px 20px rgba(0, 0, 0, 25%);
+}
+
 .active {
     font-weight: bold !important;
 }
@@ -45,6 +55,16 @@ p {
 
 #nav-menu .nav-item:hover {
     font-weight: bold;
+}
+
+.news-cards {
+    transition: all .5s;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 25%);
+}
+
+.news-cards:hover {
+    transition: all .5s;
+    box-shadow: 25px 25px 10px rgba(0, 0, 0, 25%);
 }
 
 .quick-card {
