@@ -80,60 +80,68 @@
       </div>
     </section>
 
-    <section id="products-and-services-banner" class="d-flex flex-md-row flex-column row g-4 g-md-0 my-5 py-5" style="min-height: 200px; background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('{{asset('assets/images/praia-do-aventureiro-ilha-grande-shutterstockk.webp')}}'); background-repeat: no-repeat; background-size: cover; background-position-y: 72%;">
-      <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
-        <button class="banner-big-button py-2 px-4 btn rounded-5 d-flex justify-content-center align-items-center" type="button">
+    <section id="products-and-services-banner" class="d-flex flex-md-row flex-column row g-4 g-md-0 m-0 p-0 my-5 py-5" style="min-height: 200px; background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('{{asset('assets/images/praia-do-aventureiro-ilha-grande-shutterstockk.webp')}}'); background-repeat: no-repeat; background-size: cover; background-position-y: 72%;">
+      <div class="col-12 col-md-6 pb-4 px-4 d-flex justify-content-center align-items-center">
+        <button class="banner-big-button m-0 p-0 btn rounded-5 d-flex justify-content-center align-items-center" type="button">
           Check our products<br>and services
         </button>
       </div>
-      <div class="col-12 col-md-6 px-5 d-flex justify-content-center align-items-center">
+      <div class="col-12 col-md-6 m-0 p-0 px-5 d-flex justify-content-center align-items-center">
         <img class="col-md-12 col-8" src="{{asset('assets/images/banner-icons.svg')}}" alt="" style="max-width: 100%; max-height: 100%;">
       </div>
     </section>
 
-    <section class="mb-5 mx-5 pb-5 px-5">
+    <section class="mb-5">
       <h2 class="col-12 text-center">Cards</h2>
-      <div id="splide-cards" class="splide d-flex justify-content-center" role="group" aria-label="SplideCards" style="height: 200px;">
-        <div class="splide__track col-10">
+      <div id="splide-cards" class="splide d-flex justify-content-center" role="group" aria-label="SplideCards">
+        <div class="col-10 p-5 splide__track bg-light bg-gradient rounded-5 border border-dark-subtle">
           <ul class="splide__list">
-            <li class="splide__slide text-center">Slide 01</li>
-            <li class="splide__slide text-center">Slide 02</li>
-            <li class="splide__slide text-center">Slide 03</li>
-            <li class="splide__slide text-center">Slide 04</li>
-            <li class="splide__slide text-center">Slide 05</li>
-            <li class="splide__slide text-center">Slide 06</li>
+            <li class="account-cards splide__slide text-center border border-black rounded">Slide 01</li>
+            <li class="account-cards splide__slide text-center border border-black rounded">Slide 02</li>
+            <li class="account-cards splide__slide text-center border border-black rounded">Slide 03</li>
+            <li class="account-cards splide__slide text-center border border-black rounded">Slide 04</li>
+            <li class="account-cards splide__slide text-center border border-black rounded">Slide 05</li>
+            <li class="account-cards splide__slide text-center border border-black rounded">Slide 06</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <section class="m-5 p-5">
+    <section class="my-5 py-5">
       <h2 class="col-12 text-center">News</h2>
-      <div id="splide-news" class="splide d-flex justify-content-center" role="group" aria-label="SplideCards" style="height: 300px;">
-        <div class="splide__track col-10">
+      <div id="splide-news" class="splide d-flex justify-content-center" role="group" aria-label="SplideCards">
+        <div class="col-12 pb-5 splide__track">
           <ul class="splide__list">
-            <li class="splide__slide text-center">Slide 01</li>
-            <li class="splide__slide text-center">Slide 02</li>
-            <li class="splide__slide text-center">Slide 03</li>
-            <li class="splide__slide text-center">Slide 04</li>
-            <li class="splide__slide text-center">Slide 05</li>
-            <li class="splide__slide text-center">Slide 06</li>
+            <li class="news-cards splide__slide p-3 border border-black rounded">Slide 01</li>
+            <li class="news-cards splide__slide p-3 border border-black rounded">Slide 02</li>
+            <li class="news-cards splide__slide p-3 border border-black rounded">Slide 03</li>
+            <li class="news-cards splide__slide p-3 border border-black rounded">Slide 04</li>
+            <li class="news-cards splide__slide p-3 border border-black rounded">Slide 05</li>
+            <li class="news-cards splide__slide p-3 border border-black rounded">Slide 06</li>
           </ul>
         </div>
       </div>
     </section>
 
     <script>
-      new Splide( '#splide-cards', {
-        type   : 'loop',
-        perPage: 5,
-        focus  : 'center',
-      } ).mount();
-      new Splide( '#splide-news', {
-        type   : 'loop',
-        perPage: 2.5,
-        focus  : 'start',
-      } ).mount();
+      var cards = new Splide( '#splide-cards', {
+        type        : 'loop',
+        gap         : '5%',
+        fixedWidth  : 'clamp(180px, 15vw, 232px)',
+        fixedHeight  : 'clamp(310px, 23.42vw, 400px)',
+        focus       : 'center',
+        pagination  : false,
+      } );
+      var news = new Splide( '#splide-news', {
+        type      : 'loop',
+        gap       : '5%',
+        focus     : '.05',
+        fixedWidth: 'clamp(300px, 40vw, 600px)',
+        fixedHeight: 'clamp(200px, 26.67vw, 400px)',
+        pagination: false,
+      } );
+      cards.mount();
+      news.mount();
     </script>
 
   </main>
