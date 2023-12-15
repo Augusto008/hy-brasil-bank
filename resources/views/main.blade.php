@@ -197,14 +197,56 @@
       } );
       var news = new Splide( '#splide-news', {
         type      : 'loop',
-        gap       : '5%',
+        gap       : '2.5%',
         focus     : '.05',
-        fixedWidth: 'clamp(300px, 40vw, 600px)',
+        fixedWidth: 'clamp(339px, 40vw, 678px)',
         fixedHeight: 'clamp(200px, 26.67vw, 400px)',
         pagination: false,
       } );
       cards.mount();
       news.mount();
+
+      // document.addEventListener('DOMContentLoaded', function () {
+      //   var observer = new IntersectionObserver(handleIntersection, { threshold: 1 });
+
+      //   var cards = document.querySelectorAll('.account-cards');
+      //   cards.forEach(function(card) {
+      //     observer.observe(card);
+      //   });
+
+      //   function handleIntersection(entries) {
+      //     entries.forEach(function(entry) {
+      //       var isHorizontallyVisible = entry.boundingClientRect.left > 0 && entry.boundingClientRect.right < entry.rootBounds.width;
+
+      //       if (!isHorizontallyVisible) {
+      //         entry.target.style.filter = 'blur(2px)';
+      //       } else {
+      //         entry.target.style.filter = 'none';
+      //       }
+      //     });
+      //   }
+      // });
+
+      document.addEventListener('DOMContentLoaded', function () {
+        var observer = new IntersectionObserver(handleIntersection, { threshold: 1 });
+
+        var cards = document.querySelectorAll('.news-cards');
+        cards.forEach(function(card) {
+          observer.observe(card);
+        });
+
+        function handleIntersection(entries) {
+          entries.forEach(function(entry) {
+
+            if (!entry.isIntersecting) {
+              entry.target.style.filter = 'blur(2px)';
+            } else {
+              entry.target.style.filter = 'none';
+            }
+          });
+        }
+      });
+
     </script>
 
   </main>
