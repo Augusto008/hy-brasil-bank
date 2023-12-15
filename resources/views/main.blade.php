@@ -80,14 +80,14 @@
       </div>
     </section>
 
-    <section id="products-and-services-banner" class="d-flex flex-md-row flex-column row g-4 g-md-0 m-0 p-0 my-5 py-5" style="min-height: 200px; background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('{{asset('assets/images/praia-do-aventureiro-ilha-grande-shutterstockk.webp')}}'); background-repeat: no-repeat; background-size: cover; background-position-y: 72%;">
-      <div class="col-12 col-md-6 pb-4 px-4 d-flex justify-content-center align-items-center">
-        <button class="banner-big-button m-0 p-0 btn rounded-5 d-flex justify-content-center align-items-center" type="button">
+    <section id="products-and-services-banner" class="d-flex flex-md-row flex-column row g-4 g-md-0 m-0 p-0 my-5" style="min-height: 250px; background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('{{asset('assets/images/praia-do-aventureiro-ilha-grande-shutterstockk.webp')}}'); background-repeat: no-repeat; background-size: cover; background-position-y: 72%;">
+      <div class="col-12 col-md-6 px-auto d-flex justify-content-center align-items-center">
+        <button class="banner-big-button m-0 py-2 px-3 btn rounded-5 d-flex justify-content-center align-items-center" type="button">
           Check our products<br>and services
         </button>
       </div>
-      <div class="col-12 col-md-6 m-0 p-0 px-5 d-flex justify-content-center align-items-center">
-        <img class="col-md-12 col-8" src="{{asset('assets/images/banner-icons.svg')}}" alt="" style="max-width: 100%; max-height: 100%;">
+      <div class="col-12 col-md-6 m-0 p-0 px-md-5 px-0 d-flex flex-fill justify-content-center align-items-center">
+        <img class="col-md-12 col-md-8 col-sm-9 col-10" src="{{asset('assets/images/banner-icons.svg')}}" alt="" style="max-width: 100%; max-height: 100%;">
       </div>
     </section>
 
