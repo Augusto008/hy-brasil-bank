@@ -169,12 +169,18 @@
       <div id="splide-news" class="splide d-flex justify-content-center" role="group" aria-label="SplideCards">
         <div class="col-12 pb-5 splide__track">
           <ul class="splide__list">
-            <li class="news-cards splide__slide p-3 border border-black rounded">Slide 01</li>
-            <li class="news-cards splide__slide p-3 border border-black rounded">Slide 02</li>
-            <li class="news-cards splide__slide p-3 border border-black rounded">Slide 03</li>
-            <li class="news-cards splide__slide p-3 border border-black rounded">Slide 04</li>
-            <li class="news-cards splide__slide p-3 border border-black rounded">Slide 05</li>
-            <li class="news-cards splide__slide p-3 border border-black rounded">Slide 06</li>
+            <li class="news-cards splide__slide p-3 border border-black rounded-4">
+              <div class="card-content" style="overflow: hidden; height: 98%;">
+                <img src="{{asset('assets/images/bulletin-journal-magazine-svgrepo-com.svg')}}" alt="" class="float-end px-4 pt-4" style="width: 40%;">
+                <h3>Title</h3>
+                <p style="text-align: justify; font-size: 16px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </li>
+            <li class="news-cards splide__slide p-3 border border-black rounded-4">news 2</li>
+            <li class="news-cards splide__slide p-3 border border-black rounded-4">news 3</li>
+            <li class="news-cards splide__slide p-3 border border-black rounded-4">news 4</li>
+            <li class="news-cards splide__slide p-3 border border-black rounded-4">news 5</li>
+            <li class="news-cards splide__slide p-3 border border-black rounded-4">news 6</li>
           </ul>
         </div>
       </div>
