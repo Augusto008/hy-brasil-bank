@@ -96,7 +96,64 @@
       <div id="splide-cards" class="splide d-flex justify-content-center" role="group" aria-label="SplideCards">
         <div class="col-10 p-5 splide__track bg-light bg-gradient rounded-5 border border-dark-subtle">
           <ul class="splide__list">
-            <li class="account-cards splide__slide text-center border border-black rounded">Slide 01</li>
+            <li class="flip-card splide__slide">
+              <div class="account-cards flip-card-inner text-center border border-black rounded">
+                <div class="flip-card-front p-4 d-flex flex-column justify-content-between">
+                  <div class="d-flex h-70 flex-column justify-content-between">
+                    <img src="{{asset('assets/images/playing-card-11-svgrepo-com.svg')}}" class="mx-auto" alt="Avatar" style="width:80%;">
+                    <h2 class="col-12 text-center">A</h2>
+                  </div>
+                  <div class="d-flex justify-content-start p-3">
+                    <img src="{{asset('assets/images/credit-card-chip-svgrepo-com.svg')}}" alt="" style="width: 32%; transform: rotate(270deg);">
+                  </div>
+                </div>
+                <div class="flip-card-back d-flex flex-row">
+                  <div class="col-8 p-2 text-start d-flex flex-column">
+                    <h5>Sofonisba<br>Anguissola</h5>
+                    <br>
+                    <div class="d-flex">
+                      <div class="col-4 d-flex justify-content-start">
+                        <p style="writing-mode: vertical-rl;">1000 0000 0000 0000</p>
+                      </div>
+                      <div class="col-8">
+                        <div class="col-12 d-flex" style="writing-mode: vertical-rl;">
+                          <div class="m-0 p-0">
+                            <div class="col-6">
+                              <p class="fw-bold" style="font-size: 12px;">validity</p>
+                              <p style="font-size: 12px;">11/32</p>
+                            </div>
+                            <div class="col-6">
+                              <p class="fw-bold" style="font-size: 12px;">cod.</p>
+                              <p style="font-size: 12px;">.624</p>
+                            </div>
+                          </div>
+                          <div class="m-0 p-0">
+                            <div class="col-6">
+                              <p class="fw-bold" style="font-size: 12px;">agency</p>
+                              <p style="font-size: 12px;">A54D6I8</p>
+                            </div>
+                            <div class="col-6">
+                              <p class="fw-bold" style="font-size: 12px;">Account</p>
+                              <p style="font-size: 12px;">000 B00-0</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <br>
+                      <p style="font-size: 12px;">
+                        <br>
+                        contact-us:<br>+000 000 000 0000
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="col-8 mx-auto bg-dark h-100"></div>
+                  </div>
+                </div>
+              </div>
+            </li>
             <li class="account-cards splide__slide text-center border border-black rounded">Slide 02</li>
             <li class="account-cards splide__slide text-center border border-black rounded">Slide 03</li>
             <li class="account-cards splide__slide text-center border border-black rounded">Slide 04</li>
