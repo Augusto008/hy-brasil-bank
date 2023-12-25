@@ -1,6 +1,6 @@
 <footer class="d-flex flex-column justify-content-between">
   <div class="d-flex flex-column align-items-center">
-      <div id="social-media" class="m-5 px-5 col-md-8 col-10 row">
+      <div id="social-media" class="text-center m-5 px-5 col-md-8 col-10 row">
         <div class="col">
           <a href="">
             <img class="icon-link p-0" src="{{asset('assets/images/facebook-svgrepo-com.svg')}}" alt="" width="40" height="40">
