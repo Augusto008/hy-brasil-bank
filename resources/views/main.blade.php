@@ -20,60 +20,60 @@
       </div>
     </section>
 
-    <section id="quick-actions" class="m-lg-5 m-4 p-lg-5 p-3">
+    <section id="quick-actions" class="m-lg-5 m-4 p-lg-5 p-2 p-md-3">
       <h2 class="col-12 text-center mb-5">Quick Actions</h2>
       <div class="row g-5 row-cols-xxl-4 row-cols-md-3 row-cols-2">
         <div class="col">
-          <div class="card quick-card p-3">
+          <div class="card quick-card p-2 p-md-3">
             <img src="{{asset('assets/images/credit-card-svgrepo-com.svg')}}" class="card-img-top" alt="..." style="width: 60px; height: 60px;">
             <div class="card-body">
-              <h4>Credit Card</h4>
-              <p class="card-text">Description</p>
+              <h3>Credit Card</h3>
+              <p class="small-text">Description</p>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card quick-card p-3">
+          <div class="card quick-card p-2 p-md-3">
             <img src="{{asset('assets/images/unlock-2-svgrepo-com.svg')}}" class="card-img-top" alt="..." style="width: 60px; height: 60px;">
             <div class="card-body">
-              <h4>Unlock Your Card</h4>
-              <p class="card-text">Description</p>
+              <h3>Unlock Your Card</h3>
+              <p class="small-text">Description</p>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card quick-card p-3">
+          <div class="card quick-card p-2 p-md-3">
             <img src="{{asset('assets/images/financial-report-svgrepo-com.svg')}}" class="card-img-top" alt="..." style="width: 60px; height: 60px;">
             <div class="card-body">
-              <h4>Financial Report</h4>
-              <p class="card-text">Description</p>
+              <h3>Financial Report</h3>
+              <p class="small-text">Description</p>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card quick-card p-3">
+          <div class="card quick-card p-2 p-md-3">
             <img src="{{asset('assets/images/bullfight-svgrepo-com.svg')}}" class="card-img-top" alt="..." style="width: 60px; height: 60px;">
             <div class="card-body">
-              <h4>Stock Market</h4>
-              <p class="card-text">Description</p>
+              <h3>Stock Market</h3>
+              <p class="small-text">Description</p>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card quick-card p-3">
+          <div class="card quick-card p-2 p-md-3">
             <img src="{{asset('assets/images/contact-women-talking-svgrepo-com.svg')}}" class="card-img-top" alt="..." style="width: 60px; height: 60px;">
             <div class="card-body">
-              <h4>Contact Us</h4>
-              <p class="card-text">Description</p>
+              <h3>Contact Us</h3>
+              <p class="small-text">Description</p>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card quick-card p-3">
+          <div class="card quick-card p-2 p-md-3">
             <img src="{{asset('assets/images/mobile-app-svgrepo-com.svg')}}" class="card-img-top" alt="..." style="width: 60px; height: 60px;">
             <div class="card-body">
-              <h4>Mobile App</h4>
-              <p class="card-text">Description</p>
+              <h3>Mobile App</h3>
+              <p class="small-text">Description</p>
             </div>
           </div>
         </div>
@@ -119,33 +119,29 @@
                         <div class="col-12 d-flex" style="writing-mode: vertical-rl;">
                           <div class="m-0 p-0">
                             <div class="col-6">
-                              <p class="fw-bold" style="font-size: 12px;">validity</p>
-                              <p style="font-size: 12px;">11/32</p>
+                              <p class="fw-bold mt-auto small-text">validity</p>
+                              <p class="mt-auto smaller-text">11/32</p>
                             </div>
                             <div class="col-6">
-                              <p class="fw-bold" style="font-size: 12px;">cod.</p>
-                              <p style="font-size: 12px;">.624</p>
+                              <p class="fw-bold mt-auto small-text">cod.</p>
+                              <p class="mt-auto smaller-text">.624</p>
                             </div>
                           </div>
                           <div class="m-0 p-0">
                             <div class="col-6">
-                              <p class="fw-bold" style="font-size: 12px;">agency</p>
-                              <p style="font-size: 12px;">A54D6I8</p>
+                              <p class="fw-bold mt-auto small-text">agency</p>
+                              <p class="mt-auto smaller-text">A54D6I8</p>
                             </div>
                             <div class="col-6">
-                              <p class="fw-bold" style="font-size: 12px;">Account</p>
-                              <p style="font-size: 12px;">000 B00-0</p>
+                              <p class="fw-bold mt-auto small-text">Account</p>
+                              <p class="mt-auto smaller-text">000 B00-0</p>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div>
-                      <br>
-                      <p style="font-size: 12px;">
-                        <br>
-                        contact-us:<br>+000 000 000 0000
-                      </p>
+                    <div class="d-flex flex-fill">
+                      <p class="mt-auto small-text">+000 000 000 0000</p>
                     </div>
                   </div>
                   <div class="col-4">
